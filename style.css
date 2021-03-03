@@ -1,0 +1,31 @@
+  .container{
+      width: 100%;
+      display: flex;
+      background-color: grey;
+  }
+  .square1{
+    width:10%;
+    height:6.25em;
+    background-color: green;
+    border: 1px solid black;
+  }
+  .square2{
+    width: 70%;
+    height: 6.25em;
+    background-color: yellow;
+   
+  }
+  @media screen and (max-width: 980px){
+      .container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+      .square1{
+          width:30%;
+
+      }
+      .square2{
+         width: 100%;
+      }
+  }
